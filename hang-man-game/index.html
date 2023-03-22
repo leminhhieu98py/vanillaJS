@@ -19,18 +19,19 @@
         <line x1="20" y1="230" x2="100" y2="230" />
 
         <!-- Head -->
-        <circle cx="140" cy="70" r="20" class="figure-part" />
+        <circle cx="140" cy="70" r="20" class="figure-part d-none" />
         <!-- Body -->
-        <line x1="140" y1="90" x2="140" y2="150" class="figure-part" />
+        <line x1="140" y1="90" x2="140" y2="150" class="figure-part d-none" />
         <!-- Arms -->
-        <line x1="140" y1="120" x2="120" y2="100" class="figure-part" />
-        <line x1="140" y1="120" x2="160" y2="100" class="figure-part" />
+        <line x1="140" y1="120" x2="120" y2="100" class="figure-part d-none" />
+        <line x1="140" y1="120" x2="160" y2="100" class="figure-part d-none" />
         <!-- Legs -->
-        <line x1="140" y1="150" x2="120" y2="180" class="figure-part" />
-        <line x1="140" y1="150" x2="160" y2="180" class="figure-part" />
+        <line x1="140" y1="150" x2="120" y2="180" class="figure-part d-none" />
+        <line x1="140" y1="150" x2="160" y2="180" class="figure-part d-none" />
       </svg>
 
       <div class="wrong-letters-container">
+        <span>Wrong letter list</span>
         <div id="wrong-letters"></div>
       </div>
 
@@ -38,7 +39,7 @@
     </div>
 
     <!-- Container for final message -->
-    <div class="popup-container" id="popup-container">
+    <div class="popup-container d-none" id="popup-container">
       <div class="popup">
         <h2 id="final-message"></h2>
         <h3 id="final-message-reveal-word"></h3>

@@ -33,7 +33,7 @@ h1 {
     stroke-linecap: round;
 }
 
-.figure-part {
+body .d-none {
     display: none;
 }
 
@@ -80,8 +80,7 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    /* display: flex; */
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
