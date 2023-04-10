@@ -55,7 +55,11 @@ body {
     left: 0;
     animation: rotate 3s linear infinite;
 
+}
+
+.img-container img.pause {
     animation-play-state: paused;
+
 }
 
 .music-container.play .img-container img {
@@ -126,7 +130,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px 0;
-    height: 4px;
+    height: 5px;
     width: 100%;
 }
 
